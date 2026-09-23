@@ -1251,7 +1251,7 @@ async function submitSurveyToGoogleForm() {
 
   try {
     await fetch(
-      "https://docs.google.com/forms/d/e/1FAIpQLSfAHH7whxtwD7i8T6iGD3jvo59OYDXa8s4Daa7Z2J_yLwZU1g/formResponse",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfasUIlOtk-4Uyr6KeTdYd7WbHskpB7Wfqc6ng3naOz55-Cbg/formResponse",
       {
         method: "POST",
         mode: "no-cors",
