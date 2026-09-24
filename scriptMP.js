@@ -267,7 +267,15 @@ const qualityRegions = {
 
 const slideTextMasks = {
   1: [{ left: 9.3, top: 15.0, width: 66.5, height: 5.4 }],
-  8: [{ left: 19.5, top: 89.0, width: 69.5, height: 5.0, className: 'slide-small-instruction', text: '内容を理解したら、次ページに進んでください。' }],
+  8: [
+    {
+      left: 452 / 1280 * 100, top: 184 / 720 * 100, width: 650 / 1280 * 100, height: 402 / 720 * 100,
+      className: 'slide-text-mask',
+      html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 402" width="100%" height="100%" style="display:block">
+        <text fill="#000000" font-family="Yu Gothic, Yu Gothic UI, sans-serif" font-size="37.333333" font-weight="400"><tspan x="0" y="32">居間でテレビを見ていたら、突然、テ</tspan><tspan x="0" y="77">レビとスマホから緊急地震速報が流れ</tspan><tspan x="0" y="122">てきました。</tspan><tspan x="0" y="186">どうしたらよいか分からないまま</tspan><tspan x="0" y="231">何もできず、大きな揺れが来るのを</tspan><tspan x="0" y="276">待つだけでした。</tspan><tspan x="0" y="344">緊急地震速報は役に立たないと実感</tspan><tspan x="0" y="389">しました。</tspan></text>
+      </svg>`
+    },
+    { left: 19.5, top: 89.0, width: 69.5, height: 5.0, className: 'slide-small-instruction', text: '内容を理解したら、次ページに進んでください。' }],
 };
 
 const scaleImageControlRatios = {
